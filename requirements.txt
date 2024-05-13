@@ -1,0 +1,7 @@
+transformers
+qreader
+thefuzz
+psycopg2
+easyocr
+pyaadhaar
+deepface

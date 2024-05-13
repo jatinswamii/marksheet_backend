@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Set the remote server and user information
+remote_server=13.214.115.241
+remote_user="ubuntu"
+
+# Set the local and remote directories
+local_dir="build"
+remote_dir="/home/ubuntu/upsc-dashboard"
+
+# Upload the build folder to the remote server
+scp -r $local_dir $remote_user@$remote_server:$remote_dir
+
+# Print a success message
+echo "Build folder successfully uploaded to remote server".
+
